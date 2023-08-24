@@ -1,5 +1,5 @@
 window.promises = [];
-const promises = [];
+
 const prom1 = new Promise((resolve , reject)=>{
 	setTimeOut(()=>{
 		resolve("hurray");
